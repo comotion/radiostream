@@ -1,0 +1,6 @@
+radiostream: 
+ Liquidsoap sample scripts that make it easy to manage a internet radio stream
+
+Usage: liquidsoap radio.liq
+
+Kacper Wysocki, 2009
