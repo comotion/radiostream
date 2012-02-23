@@ -31,11 +31,11 @@ set("log.stdout", true)
 
 #live = strip_blank(input.http("http://localhost:8000/live.ogg"))
 #requests = request.queue(id="request")
-mpd = input.http("http://localhost:8000/mpd.ogg")
+#mpd = input.http("http://localhost:8000/mpd.ogg")
 #all = playlist("/mnt/nypult/audio/and_now_everything.m3u");
 
 radio = fallback(track_sensitive=false,
-		[mpd, noise(id='noise')])
+		[main, noise(id='noise')])
 		#transitions=[crossfade],
 #		[direct, live, requests, mpd, all, noise(id="noisesoap") ])
 

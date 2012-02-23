@@ -4,3 +4,7 @@ radiostream:
 Usage: liquidsoap radio.liq
 
 Kacper Wysocki, 2009
+
+PS the rest of the .liq files are savonet's, mine and other people's examples,
+provided here because the api docs are really shit to read.
+
